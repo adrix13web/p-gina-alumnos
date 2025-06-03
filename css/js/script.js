@@ -11,9 +11,9 @@ function saludar() {
 function cambiarImagen() {
   let imagen = document.getElementById("imagen");
 
-  if (imagen.src.includes("gatito.png")) {
-    imagen.src = "img/perrito.png";
+  if (imagen.src.includes("gatito.jpg")) {
+    imagen.src = "img/perrito.jpg";
   } else {
-    imagen.src = "img/gatito.png";
+    imagen.src = "img/gatito.jpg";
   }
 }
