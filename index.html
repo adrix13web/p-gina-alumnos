@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Interactiva</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenidas a su primer sitio web</h1>
+    <p class="subtitulo">¡Creado con HTML, CSS y JavaScript!</p>
+  </header>
+
+  <main>
+    <section>
+      <label for="nombre">Escribe tu nombre:</label><br>
+      <input type="text" id="nombre" placeholder="Tu nombre aquí"><br>
+      <button onclick="saludar()">Saludar</button>
+    </section>
+
+    <section>
+      <h2 id="mensaje"></h2>
+    </section>
+
+    <section>
+      <img id="imagen" src="img/gatito.png" alt="Gatito" width="200">
+      <br>
+      <button onclick="cambiarImagen()">Cambiar imagen</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho por estudiantes ✨</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
